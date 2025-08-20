@@ -13,4 +13,6 @@ spec:
     path: kubernetes
     targetRevision: main
   syncPolicy:
-    automated: {}
+    automated:
+      prune: true
+      selfHeal: true
