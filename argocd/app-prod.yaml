@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
     namespace: prod
   source:
-    repoURL: https://github.com/AGBS074/yaml-devops-practice.yaml
+    repoURL: https://github.com/AGBS074/yaml-devops-practice.git
     path: environments/prod
     targetRevision: main
   syncPolicy:
